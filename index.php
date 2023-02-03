@@ -40,6 +40,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
     </style>
     <script>
     $(document).ready(function() {
@@ -58,11 +59,11 @@
     <!-- socials top right start -->
     <div class="d-flex justify-content-end" style="padding-top:10px;">
         <a href="https://www.w3schools.com"> <i class="fa-brands fa-facebook fa-2xl "
-                style="padding-right: 5px; color: #325c8c;"></i></a>
+                style="padding-right: 5px;"></i></a>
         <a href="https://www.w3schools.com"> <i class="fa-brands fa-twitter fa-2xl"
-                style="padding-right: 5px; color: #325c8c;"></i></a>
+                style="padding-right: 5px;"></i></a>
         <a href="https://www.w3schools.com"> <i class="fa-brands fa-instagram fa-2xl"
-                style="padding-right: 15px; color: #325c8c;"></i></a>
+                style="padding-right: 15px;"></i></a>
     </div> <!-- socials top right end -->
     <!-- centred logo start -->
     <div class="d-flex justify-content-center" style="">
@@ -118,41 +119,71 @@
     <div class="container">
         <!-- Constainer Start -->
 
-        <div class="row">
-            <div class="col-sm-6">
+        <div class="row" >
+            <div class="col-sm-6" style="padding-top: 15px;">
                 <div class="card text-center">
                     <div class="card-header">
-                        Featured
+                    <h5 class="card-title">Blog Title</h5>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="images/logonobg.png" style="height: 75px;">
+                            </div>
+                            <div class="col-md-9">
+                            <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere libero in varius ornare. Phasellus vitae auctor sapien. Donec cursus sem vel purus porttitor laoreet.</p>
+                            </div>
+
+                        </div>
+                        <a href="#" class="btn btn-primary">Read more</a>
                     </div>
                     <div class="card-footer text-muted">
                         2 days ago
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="card">
+            <div class="col-sm-3" style="padding-top: 15px;">
+                <div class="card text-center">
+                    <div class="card-header">
+                    <h5 class="card-title">Blog Title</h5>
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="row">
+
+                            <div class="col-md-12">
+                            <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere libero in varius ornare.</p>
+                            </div>
+
+                        </div>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        2 days ago
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-3">
-                <div class="card">
+            <div class="col-sm-3" style="padding-top: 15px;">
+                <div class="card text-center">
+                    <div class="card-header">
+                    <h5 class="card-title">Blog Title</h5>
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="row">
+
+                            <div class="col-md-12">
+                            <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere libero in varius ornare.</p>
+                            </div>
+
+                        </div>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        2 days ago
                     </div>
                 </div>
             </div>
+
         </div>
 
         <!-- Footer Start -->
